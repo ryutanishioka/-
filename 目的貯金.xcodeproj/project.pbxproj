@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB22C2282301C6AC002510B1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22C2272301C6AC002510B1 /* ViewController2.swift */; };
+		CB22C22A2301C6BE002510B1 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB22C2292301C6BE002510B1 /* ViewController3.swift */; };
 		CB91A16A22FFEEC4002A13D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91A16922FFEEC4002A13D6 /* AppDelegate.swift */; };
 		CB91A16C22FFEEC4002A13D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB91A16B22FFEEC4002A13D6 /* ViewController.swift */; };
 		CB91A16F22FFEEC4002A13D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB91A16D22FFEEC4002A13D6 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB22C2272301C6AC002510B1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CB22C2292301C6BE002510B1 /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		CB91A16622FFEEC4002A13D6 /* 目的貯金.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "目的貯金.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB91A16922FFEEC4002A13D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB91A16B22FFEEC4002A13D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			children = (
 				CB91A16922FFEEC4002A13D6 /* AppDelegate.swift */,
 				CB91A16B22FFEEC4002A13D6 /* ViewController.swift */,
+				CB22C2272301C6AC002510B1 /* ViewController2.swift */,
+				CB22C2292301C6BE002510B1 /* ViewController3.swift */,
 				CB91A16D22FFEEC4002A13D6 /* Main.storyboard */,
 				CB91A17022FFEEC7002A13D6 /* Assets.xcassets */,
 				CB91A17222FFEEC7002A13D6 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				CB91A16C22FFEEC4002A13D6 /* ViewController.swift in Sources */,
 				CB91A16A22FFEEC4002A13D6 /* AppDelegate.swift in Sources */,
+				CB22C22A2301C6BE002510B1 /* ViewController3.swift in Sources */,
+				CB22C2282301C6AC002510B1 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R95K896WUX;
 				INFOPLIST_FILE = "目的貯金/Info.plist";
@@ -291,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryuta.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R95K896WUX;
 				INFOPLIST_FILE = "目的貯金/Info.plist";
@@ -309,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ryuta.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
